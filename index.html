@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Our Team | Neuro-Networks</title>
+<title>Neuro-Networks | Educate • Advocate • Empower</title>
 
 <style>
 body {
@@ -11,6 +11,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #ffffff;
     color: #1a1a1a;
+    line-height: 1.6;
 }
 
 /* NAVIGATION */
@@ -45,79 +46,86 @@ nav ul li a:hover {
     color: #f4c2d7;
 }
 
-/* HEADER */
-header {
+/* HERO */
+.hero {
     background-color: #0b1f3a;
     color: white;
-    padding: 60px 20px;
+    padding: 100px 20px;
     text-align: center;
 }
 
-header p {
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
     color: #f4c2d7;
+    font-size: 18px;
 }
 
 /* SECTION */
 .section {
-    padding: 50px 8%;
+    padding: 70px 10%;
 }
 
 .section h2 {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 35px;
+    font-size: 34px;
+    margin-bottom: 30px;
     color: #0b1f3a;
 }
 
-/* GRID */
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 35px;
+.section p {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
 }
 
-/* CARD */
+/* BREAK LINE */
+.divider {
+    width: 80px;
+    height: 4px;
+    background-color: #f4c2d7;
+    margin: 25px auto 50px auto;
+    border-radius: 10px;
+}
+
+/* CARD GRID */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
 .card {
     background-color: #f9f9f9;
     border-radius: 16px;
-    padding: 25px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     transition: 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
 }
 
-.profile-img {
-    width: 100%;
-    height: 280px;
-    background-color: #e6e6e6;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777;
+.card h3 {
+    font-size: 28px;
+    color: #0b1f3a;
+    margin-bottom: 10px;
 }
 
-/* BOOK SECTION */
-.book-section {
+.card p {
+    font-size: 15px;
+}
+
+/* PINK SECTION */
+.alt-section {
     background-color: #fff0f6;
-    padding: 50px 8%;
-    text-align: center;
-}
-
-.book-img {
-    width: 250px;
-    height: 350px;
-    background-color: #e6e6e6;
-    border-radius: 12px;
-    margin: 25px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777;
+    padding: 70px 10%;
 }
 
 /* FOOTER */
@@ -125,7 +133,8 @@ footer {
     background-color: #0b1f3a;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
+    margin-top: 60px;
 }
 </style>
 </head>
@@ -135,7 +144,6 @@ footer {
 <nav>
     <div class="logo">Neuro-Networks</div>
     <ul>
-        <li><a href="index.html">Home</a></li>
         <li><a href="team.html">Team</a></li>
         <li><a href="resources.html">Resources</a></li>
         <li><a href="stories.html">Stories & Voices</a></li>
@@ -144,87 +152,57 @@ footer {
     </ul>
 </nav>
 
-<header>
-    <h1>Meet Our Team</h1>
+<!-- HERO -->
+<div class="hero">
+    <h1>Neuro-Networks</h1>
     <p>Networks of knowledge, strength, and resilience.</p>
-</header>
-
-<!-- LEADERSHIP -->
-<div class="section">
-    <h2>Leadership</h2>
-    <div class="team-grid">
-
-        <div class="card">
-            <div class="profile-img">Upload Aadhya's Photo</div>
-            <h3>Aadhya Kumar</h3>
-            <p><strong>Founder</strong></p>
-            <p>Hi! I’m Aadhya Kumar, a junior at the International Academy Okma Campus. Growing up with a brachial plexus injury shaped how I see resilience, community, and possibility. I created Neuro-Networks to raise awareness, support research, and empower young people with disabilities.</p>
-            <p>I practice Taekwondo, serve as Head Delegate in Model UN, give anatomy lectures in Pre-Med Club, and am involved in IASA. I’m passionate about leadership and medicine intersecting to create impact.</p>
-        </div>
-
-        <div class="card">
-            <div class="profile-img">Upload Aarya's Photo</div>
-            <h3>Aarya Verma</h3>
-            <p><strong>Co-Founder</strong></p>
-            <p>A junior at the International Academy, Aarya focuses on biomedical innovation, fundraising, and advocacy for underserved medical communities.</p>
-            <p>Involved in FRC Robotics, Debate, Global Medical Squads, and IASA, Aarya aims to support research and technological advancements in BPI treatment.</p>
-        </div>
-
-    </div>
 </div>
 
-<!-- BOOK SECTION -->
-<div class="book-section">
-    <h2>Built Differently</h2>
-    <div class="book-img">Upload Book Cover Here</div>
-    <p><strong>Built Differently: Growing Up With a Brachial Plexus Injury</strong> is a memoir by Aadhya Kumar exploring the realities of growing up with a disability. Writing it expanded advocacy into action and led to the creation of Neuro-Networks.</p>
+<!-- MISSION -->
+<div class="section">
+    <h2>Our Mission</h2>
+    <div class="divider"></div>
+
+    <p>
+    Neuro-Networks is dedicated to educating youth, raising awareness and advocacy for brachial plexus injury research, and empowering individuals with brachial plexus injuries to live without limits through education, community, and representation.
+    </p>
 </div>
 
-<!-- TEAM -->
+<!-- WHY IT MATTERS -->
+<div class="alt-section">
+    <h2>Why Does This Matter?</h2>
+    <div class="divider"></div>
+
+    <p>
+    Brachial plexus injuries remain underrepresented in public education and research awareness. Many affected youth face stigma, misunderstanding, and limited peer support. Neuro-Networks bridges the gap between medical knowledge and youth understanding through education, advocacy, and empowerment.
+    </p>
+</div>
+
+<!-- STATISTICS -->
 <div class="section">
-    <h2>Team Members</h2>
-    <div class="team-grid">
+    <h2>Brachial Plexus Injury by the Numbers</h2>
+    <div class="divider"></div>
+
+    <div class="card-grid">
 
         <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>Avi Nayar</h3>
-            <p>Junior at Troy Athens High School passionate about measurable community impact. Involved in sports, Model UN, NHS, SSAB, and a GM pre-internship.</p>
+            <h3>1–2 per 1,000</h3>
+            <p>Infants are affected by brachial plexus birth injuries in the United States annually.</p>
         </div>
 
         <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>Saswath Velayudham</h3>
-            <p>IA junior interested in biology and medicine, focused on education-driven advocacy and long-term awareness.</p>
+            <h3>30,000+</h3>
+            <p>Traumatic brachial plexus injuries occur each year in the U.S., often due to accidents or sports injuries.</p>
         </div>
 
         <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>Hayden Frishman</h3>
-            <p>Passionate about advocacy for hidden injuries and medical representation through leadership and education.</p>
+            <h3>20–30%</h3>
+            <p>Of birth-related injuries result in long-term functional impairment without early intervention.</p>
         </div>
 
         <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>Erianne Pambid</h3>
-            <p>Sophomore interested in nursing and outreach, dedicated to spreading awareness and building communication skills.</p>
-        </div>
-
-        <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>CJ Claussen</h3>
-            <p>Focused on psychology and neuroscience research, supporting fundraising and research advocacy.</p>
-        </div>
-
-        <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>Aarya Newalkar</h3>
-            <p>Interested in medicine and nutrition, building leadership through advocacy and fundraising efforts.</p>
-        </div>
-
-        <div class="card">
-            <div class="profile-img">Upload Photo</div>
-            <h3>Lamha Raman</h3>
-            <p>Passionate about medical advocacy and psychology, working to broaden research and awareness engagement.</p>
+            <h3>Low Awareness</h3>
+            <p>BPI remains significantly underrepresented in school health education and mainstream disability awareness efforts.</p>
         </div>
 
     </div>
