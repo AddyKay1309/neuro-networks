@@ -1,56 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Team | Neuro-Networks Foundation</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Team | Neuro-Networks</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: #0b1f3a;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #f4c2d7;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #0b1f3a;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-img {
+    width: 100%;
+    height: 280px;
+    background-color: #e6e6e6;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 14px;
+}
+
+/* Replace background box above with:
+<img src="yourimage.jpg" class="profile-img">
+*/
+
+.card h3 {
+    margin: 10px 0 5px 0;
+    color: #0b1f3a;
+}
+
+.role {
+    color: #f48fb1;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.book-section {
+    background-color: #fff0f6;
+    padding: 60px 10%;
+}
+
+.book-section h2 {
+    color: #0b1f3a;
+    text-align: center;
+}
+
+footer {
+    background-color: #0b1f3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
 </head>
+
 <body>
 
-<nav>
-<h1>Neuro-Networks Foundation</h1>
-<ul>
-<li><a href="index.html">About Us</a></li>
-<li><a href="team.html">Team</a></li>
-<li><a href="resources.html">Resources</a></li>
-<li><a href="stories.html">Stories & Voices</a></li>
-<li><a href="outreach.html">Outreach</a></li>
-<li><a href="impact.html">Impact</a></li>
-</ul>
-</nav>
+<header>
+    <h1>Meet Our Team</h1>
+    <p>Networks of knowledge, strength, and resilience.</p>
+</header>
 
-<div class="hero">
-<h2>Leadership & Team</h2>
-<p>Meet the students driving education, advocacy, and empowerment.</p>
+<div class="section">
+    <h2>Leadership</h2>
+
+    <div class="team-grid">
+
+        <!-- Aadhya -->
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Aadhya Kumar</h3>
+            <div class="role">Founder</div>
+            <p>
+            Hi! I’m Aadhya Kumar, a junior at the International Academy Okma Campus and the founder of Neuro-Networks. Growing up with a brachial plexus injury shaped how I understand resilience, representation, and possibility. I created Neuro-Networks to raise awareness, support research, and empower young people living with disabilities to feel limitless.
+            </p>
+            <p>
+            I practice Taekwondo, serve as Head Delegate in Model UN, am a board member of Pre-Med Club where I give human anatomy lectures, and am involved in the Indian American Student Association. I’m passionate about where leadership and medicine intersect to create meaningful change.
+            </p>
+        </div>
+
+        <!-- Aarya Verma -->
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Aarya Verma</h3>
+            <div class="role">Co-Founder</div>
+            <p>
+            Hi, I’m Aarya Verma, a junior at the International Academy Okma Campus. As Co-founder, I aim to expand access to medical resources and advocate for underserved communities affected by medical disabilities.
+            </p>
+            <p>
+            I serve as a Scouting Lead and Impact Presenter on an FRC Robotics Team, Global Medical Brigades Fundraising Co-Chair, Debate Captain, and am involved in IASA and GUIDAS. I am passionate about biomedical sciences and technology, and I hope to support advancements in brachial plexus injury research through advocacy and fundraising.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="book-section">
+    <h2>Built Differently</h2>
+    <p style="max-width:800px;margin:auto;text-align:center;">
+    <strong>Built Differently: Growing Up With a Brachial Plexus Injury</strong> is authored by Aadhya Kumar. Through personal stories and reflections, the memoir explores the wins, challenges, and realities of growing up with a disability. Writing this book expanded Neuro-Networks from storytelling into advocacy, education, and action.
+    </p>
 </div>
 
 <div class="section">
+    <h2>Team Members</h2>
 
-<div class="team-member">
-<div class="team-photo">
-Photo Here
-</div>
-<div class="team-bio">
-<h4>Aadhya Kumar — Founder</h4>
-<p>
-Aadhya founded Neuro-Networks to expand awareness and representation for individuals living with brachial plexus injuries. Growing up with BPI shaped her understanding of resilience, leadership, and advocacy. In addition to leading Neuro-Networks, she serves as a Head Delegate in Model United Nations, practices Taekwondo, and delivers anatomy lectures through her school’s Pre-Med Club. She is passionate about bridging medicine, youth leadership, and systemic change.
-</p>
-</div>
-</div>
+    <div class="team-grid">
 
-<div class="team-member">
-<div class="team-photo">Photo Here</div>
-<div class="team-bio">
-<h4>Aarya Verma — Co-Founder</h4>
-<p>
-Aarya focuses on biomedical innovation, research advocacy, and fundraising strategy. With interests spanning biomedical engineering and technological advancement, he supports expanding research opportunities for brachial plexus injury treatments and awareness campaigns.
-</p>
-</div>
-</div>
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Avi Nayar</h3>
+            <div class="role">Outreach & Fundraising</div>
+            <p>
+            Junior at Troy Athens High School, Avi is passionate about spreading awareness and raising funds within his school community. He participates in Tennis, Bowling, Model UN, NHS, SSAB, and is launching a pre-internship at General Motors. Interested in data science and law, he aims to make a measurable impact rather than symbolic involvement.
+            </p>
+        </div>
 
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Saswath Velayudham</h3>
+            <div class="role">Education & Research Support</div>
+            <p>
+            A junior at the International Academy, Saswath is deeply interested in biology and medicine. Passionate about reducing suffering through education, he believes awareness ensures long-term change. Outside academics, he enjoys volleyball and sports.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Hayden Frishman</h3>
+            <div class="role">Advocacy Lead</div>
+            <p>
+            Hayden is passionate about hidden diseases and injuries, drawing from personal experience. Interested in leadership and medicine, Hayden is committed to being a voice for individuals who need stronger representation.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Erianne Pambid</h3>
+            <div class="role">Outreach & Communications</div>
+            <p>
+            Sophomore at IA, Erianne is interested in nursing and healthcare leadership. A competitive pairs figure skater and coach, she joined Neuro-Networks to build leadership skills and help raise awareness about brachial plexus injuries.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>CJ Claussen</h3>
+            <div class="role">Fundraising & Research Advocacy</div>
+            <p>
+            Junior at IA interested in psychology and neuroscience research. CJ is dedicated to organizing fundraisers and building educated communities that support life-changing research initiatives.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Aarya Newalkar</h3>
+            <div class="role">Community Engagement</div>
+            <p>
+            Sophomore at IA interested in medicine and nutrition. Aarya hopes to develop research and advocacy skills while raising funds and awareness for underrepresented medical conditions.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="profile-img">Upload Photo Here</div>
+            <h3>Lamha Raman</h3>
+            <div class="role">Advocacy & Engagement</div>
+            <p>
+            Junior at IA passionate about medical advocacy and psychology. Lamha hopes to broaden awareness and research horizons while highlighting resilience and physical empowerment.
+            </p>
+        </div>
+
+    </div>
 </div>
 
 <footer>
-© 2026 Neuro-Networks Foundation
+    © 2026 Neuro-Networks Foundation | Educate • Advocate • Empower
 </footer>
 
 </body>
